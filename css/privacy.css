@@ -1,0 +1,19 @@
+.privacy{
+    margin: 40px;
+    padding: 30px 50px;
+}
+
+.privacy h1{
+    text-transform: capitalize;
+    text-align: center;
+    margin: 20px;
+}
+
+.privacy p{
+    text-align: justify;
+}
+
+.privacy p a{
+    color: red;
+    transition: all 0.3s ease-in-out;
+}

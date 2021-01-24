@@ -1,0 +1,14 @@
+.terms{
+    margin: 40px;
+    padding: 30px 50px;
+}
+
+.terms h2{
+    text-transform: capitalize;
+    text-align: center;
+    margin: 20px;
+}
+
+.terms p{
+    text-align: justify;
+}

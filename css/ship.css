@@ -1,0 +1,14 @@
+.shipping{
+    margin: 30px 40px;
+    padding: 50px;
+}
+
+.shipping h1{
+    text-transform: capitalize;
+    text-align: center;
+    margin: 20px;
+}
+
+.shipping p{
+    text-align: justify;
+}

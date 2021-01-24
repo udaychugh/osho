@@ -1,0 +1,22 @@
+.how-buy{
+    margin: 30px 40px;
+    padding: 50px;
+}
+
+.how-buy h1{
+    text-transform: capitalize;
+    text-align: center;
+    margin: 20px;
+}
+
+.how-buy p{
+    text-align: justify;
+}
+
+.how-buy a{
+    color: red;
+}
+
+.how-buy a:hover{
+    color: red;
+}

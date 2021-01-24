@@ -1,0 +1,28 @@
+.book-list{
+    padding: 100px 40px;
+    background-color: ;
+}
+
+.book-list input{
+    outline: 0;
+    border: 4px solid;
+    border-bottom-color: red;
+    width: 100%;
+    font-size: 24px;
+    padding: 15px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.discount{
+    
+}
+
+.book-name{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 10px double black;
+    border-radius: 0 0 0 40px;
+    padding: 20px;
+    margin-top: 20px;
+}
