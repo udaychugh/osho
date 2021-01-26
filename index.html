@@ -77,11 +77,25 @@
     </nav>
 
     <section class="heading-section" id="home">
-        <div class="heading-text">
-            <h1 class="wow animate__rubberBand">complete <span>osho</span> literature</h1>
-            <h1 class="wow animate__backInUp delay-1s">available in <span>books</span> and <span>pendrive</span></h1>
-            <a href="#" data-toggle="modal" data-target="#contact-modal" class="wow animate__fadeInLeft delay-2s">Contact Us</a>
-            <a href="#offers" class="wow animate__fadeInRight delay-3s">check now</a>
+        <div class="heading-info">
+            <div class="heading-text">
+                <h3 class="wow animate__rubberBand">complete <span>osho</span> literature</h3>
+                <h3 class="wow animate__backInUp delay-1s">available in <span>books</span> and <span>pendrive</span></h3>
+                <a href="#" data-toggle="modal" data-target="#contact-modal" class="wow animate__fadeInLeft delay-2s">Contact Us</a>
+                <a href="#offers" class="wow animate__fadeInRight delay-3s">check now</a>
+                <div class="oval-text wow animate__fadeInLeft delay-5s">
+                    <p><span>संदेश पहुंचना चाहिए</span> <br>
+
+                        लोग भले ही आज समझें या कल इससे कोई फर्क नहीं पड़ेगा,
+
+                        आप उन लोगों तक ओशो का संदेश पहुचांए जिन्होंने अभी तक ओशो की वाणी को पढ़ा नहीं है, सुना नहीं है <br>
+
+                        <span>ओशो भविष्य के मार्गदर्शक है।</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="heading-image">
+            <img src="images/osho_cov.jpg" alt="osho message" title="osho message" class="wow animate__fadeInRight delay-4s">
         </div>
         <a href='#about'>
             <div id="arrow-down"></div>
@@ -113,25 +127,25 @@
             <div class="pricing wow animated fadeInLeft">
                 <div>
                     <h3>Hindi Books</h3>
-                    <button onclick="window.open('pdfs/hindi_books.pdf')">Download List <i class="fas fa-file-download"></i></button>
+                    <button onclick="window.open('pdfs/hindi_books.pdf')">Check List <i class="fas fa-file-download"></i></button>
                 </div>
             </div>
             <div class="pricing wow animated pulse delay-2s">
                 <div>
                     <h3>English Books</h3>
-                    <button onclick="window.open('pdfs/english_books.pdf')">Download List <i class="fas fa-file-download"></i></button>
+                    <button onclick="window.open('pdfs/english_books.pdf')">Check List <i class="fas fa-file-download"></i></button>
                 </div>
             </div>
             <div class="pricing wow animated fadeInRight">
                 <div>
                     <h3>Hindi Pendrive</h3>
-                    <button onclick="hindipd()">Download List <i class="fas fa-file-download"></i></button>
+                    <button onclick="hindipd()">Check List <i class="fas fa-file-download"></i></button>
                 </div>
             </div>
             <div class="pricing wow animated pulse delay-2s">
                 <div>
                     <h3>English Pendrive</h3>
-                    <button onclick="engpd()">Download List <i class="fas fa-file-download"></i></button>
+                    <button onclick="engpd()">Check List <i class="fas fa-file-download"></i></button>
                 </div>
             </div>
         </div>
@@ -355,23 +369,24 @@
                 <p>We are open for any suggestion or just to have a chat.</p>
                 <div class="contact-info">
                     <i class="icon-phone"></i>
-                    <p>+91 9868560981</p>
+                    <p><a href="tel:+919013697841">+91 9013697841</a></p>
                 </div>
                 <div class="contact-info">
                     <i class="icon-mail-envelope-closed"></i>
-                    <p>kdurgeshc@gmail.com</p>
+                    <p><a href="mailto:oshodarshandelhi@gmail.com">oshodarshandelhi@gmail.com</a></p>
                 </div>
                 <div class="contact-info">
                     <i class="icon-location2"></i>
-                    <p>C- 65, Kiran Gadern Uttam Nagar
-                        <br>New Delhi - 110059
+                    <p><a href="https://g.page/osho-darshan?share">C- 65, Kiran Gadern Uttam Nagar
+                        <br>New Delhi - 110059</a>
                     </p>
                 </div>
             </div>
             <div class="contact-right wow animated fadeInRight delay-1s">
                 <form action="https://formspree.io/f/xvovwena" method="POST">
-                    <input type="text" name="name" id="name" placeholder="full name">
-                    <input type="email" name="mail" id="mail" placeholder="email">
+                    <input type="text" name="name" id="name" placeholder="full name" required>
+                    <input type="number" name="phone" id="phone" placeholder="Phone Number" required>
+                    <input type="email" name="mail" id="mail" placeholder="email" required>
                     <textarea name="idMessage" id="message" rows="5" placeholder="message"></textarea>
                     <button type="submit">Send <i class="icon-arrow-right2"></i></button>
                 </form>
@@ -407,17 +422,15 @@
                 <a href="assests/faq.html">FAQ</a>
             </div>
         </div>
-        
+
         <div class="social-links">
-                    <a href="#"><i class="fab fa-facebook" title="facebook"></i></a>
-                    <a href="#"><i class="fab fa-instagram" title="instgram"></i></a>
-                    <a href="#"><i class="fab fa-whatsapp" title="whatsapp"></i></a>
-                    <a href="#"><i class="fab fa-discord" title="discord"></i></a>
-                    <a href="#"><i class="fab fa-telegram" title="telegram"></i></a>
-                    <a href="#"><i class="fab fa-google" title="google"></i></a>
-                    <a href="#"><i class="fas fa-comment" title="signal"></i></a>
+            <a href="#"><i class="fab fa-whatsapp" title="whatsapp"></i></a>
+            <a href="#"><i class="fab fa-discord" title="discord"></i></a>
+            <a href="#"><i class="fab fa-telegram" title="telegram"></i></a>
+            <a href="#"><i class="fab fa-google" title="google"></i></a>
+            <a href="#"><i class="fas fa-comment" title="signal"></i></a>
         </div>
-        
+
         <p class="copyright"><a href="#">oshodarshan.in</a> &copy; 2021</p>
 
         <div class="modal fade" id="myModal" role="dialog">
@@ -430,7 +443,7 @@
 
                     </div>
                     <div class="modal-body">
-                        <p>To get Help from us. <br>Feel free to call us at : 9868560981</p>
+                        <p>To get Help from us. <br>Feel free to call us at : <a href="tel:+919013697841">+91 9013697841</a></p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -451,10 +464,10 @@
                     </div>
                     <div class="modal-body">
                         <p>
-                            Reach us out. <br> <a href="#"><i class="icon-location2"></i> C-65 Kiran Garden, Uttam Nagar, New Delhi - 110059</a>
+                            Reach us out. <br> <a href="https://g.page/osho-darshan?share"><i class="icon-location2"></i> C-65 Kiran Garden, Uttam Nagar, New Delhi - 110059</a>
                         </p>
                         <p>
-                            Call us @ +91-9868560981
+                            Call us @ <a href="tel:+919013697841">+91 9013697841</a>
                         </p>
                         <p>
                             Find us on Social Media <br>
